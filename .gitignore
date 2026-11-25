@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Security
+.env
+playwright/.auth/
+storage_state.json
+
+# Test Artifacts
+test-results/
+reports/screenshots/
+reports/report_*.html
+
+# OS
+Thumbs.db
+.DS_Store
